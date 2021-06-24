@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-
          recyclerView.setAdapter(adapter);
          recyclerView.setLayoutManager(new LinearLayoutManager(this));
          ItemTouchHelper itemTouchHelper=new ItemTouchHelper(new RecyclerViewTouchHelper(adapter));
